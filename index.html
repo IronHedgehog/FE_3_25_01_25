@@ -5,12 +5,76 @@
     <meta name="viewport" content="width=device-widthinitial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body>
+  <body style="background-color: orange">
     <header>
       <p>ЗАпишемо сюди все що стосується верхівки нащшого сайту</p>
     </header>
-
+    <!-- main - це групуючий який,  обʼєднує основний контент вашої сторінки -->
     <main>
+      <img
+        src="https://no-cdn.shortpixel.ai/client/to_avif,q_lossy,ret_wait/https://shortpixel.com/blog/wp-content/uploads/2023/12/nyan-cat.gif"
+        alt=""
+        width="100"
+        height="100"
+      />
+      <!-- article - групує теги статті   -->
+      <article>
+        <h2>Заголовок</h2>
+        <!-- p - параграф -->
+        <p>Автор</p>
+        <p>Основний контент вашої статі</p>
+      </article>
+      <!-- Нумерований список -->
+
+      <section style="background-color: red">
+        <h2>Список овочів</h2>
+        <!-- ol - створює нумерований список -->
+        <ol>
+          <!-- li - елемент вашого списку -->
+          <li style="font-size: 100px; color: rgba(173, 208, 18, 0.432)">
+            Картопля
+          </li>
+          <li style="font-size: 10px">Цибуля</li>
+          <li style="color: rgb(15, 106, 196)">Морква</li>
+          <li
+            style="
+              color: color-mix(in srgb, color percentage, color percentage);
+            "
+          >
+            Морква
+          </li>
+        </ol>
+
+        <video src="" controls></video>
+
+        <h2>Список справ</h2>
+        <ul
+          style="
+            background-image: url(./pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg);
+          "
+        >
+          <li>Поїсти</li>
+          <li>Пограти</li>
+          <li>Поспати</li>
+        </ul>
+
+        <h2>Визначення</h2>
+        <!-- dl - тег для групування визначення -->
+        <dl>
+          <!-- dt - поняття для пояснення -->
+          <dt>CSS</dt>
+          <!-- dd - пояснення -->
+          <dd>Каскадна таблиця стилів</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Media</h2>
+
+        <!-- width - ширини -->
+        <!-- height - висота -->
+      </section>
+
       <section>
         <h2>Заголовки</h2>
 
@@ -23,6 +87,10 @@
           <h6>H6</h6>
         </div>
       </section>
+
+      <aside>
+        <h1>Бокова частина</h1>
+      </aside>
 
       <section>
         <h2>Текстові елементи</h2>
