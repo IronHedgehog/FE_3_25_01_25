@@ -72,35 +72,58 @@
 
     <!-- Таблиці -->
     <!-- table - групує нашу табличку -->
-    <table style="border: 5px solid black">
+    <table
+      style="border: 5px solid black; border-collapse: collapse; width: 100%"
+    >
       <!-- thead - шапочка -->
-      <thead style="border: 1px solid black">
-        <tr style="border: 1px solid black">
-          <th>Понеділок</th>
-          <th>Вівторок</th>
-          <th>Середа</th>
-          <th>Четвер</th>
-          <th>Пʼятниця</th>
+      <thead>
+        <!-- tr - tablerow - рядок таблиці -->
+        <tr>
+          <!--th - комірка нашого рядочку  -->
+          <th style="border: 2px solid black; padding: 10px">Понеділок</th>
+          <th style="border: 2px solid black; padding: 10px">Вівторок</th>
+          <th style="border: 2px solid black; padding: 10px">Середа</th>
+          <th style="border: 2px solid black; padding: 10px">Четвер</th>
+          <th style="border: 2px solid black; padding: 10px">Пʼятниця</th>
         </tr>
       </thead>
       <tbody>
         <!-- tr - рядок -->
-        <tr style="border: 1px solid black">
-          <!--td - одна комірочка у рядку -->
-          <td>1</td>
-          <td>2</td>
-          <td>3</td>
-          <td>4</td>
-          <td>5</td>
+        <tr>
+          <td style="border: 2px solid black; padding: 10px">1</td>
+          <td style="border: 2px solid black; padding: 10px">2</td>
+          <td style="border: 2px solid black; padding: 10px">3</td>
+          <td style="border: 2px solid black; padding: 10px">4</td>
+          <td style="border: 2px solid black; padding: 10px">5</td>
         </tr>
         <tr>
-          <td>6</td>
-          <td>7</td>
-          <td>9</td>
-          <td>8</td>
-          <td>10</td>
+          <td style="border: 2px solid black; padding: 10px">6</td>
+          <td style="border: 2px solid black; padding: 10px">7</td>
+          <td style="border: 2px solid black; padding: 10px">9</td>
+          <td style="border: 2px solid black; padding: 10px">8</td>
+          <td style="border: 2px solid black; padding: 10px">10</td>
         </tr>
       </tbody>
     </table>
+
+    <!-- ФОРМИ -->
+    <!-- form - групуючий тег таблиці -->
+    <form>
+      <!-- input - текстове поле -->
+      <input type="email" placeholder="E-mail" required />
+      <input type="password" placeholder="password" required minlength="6" />
+      <input type="number" max="3" min="0" />
+
+      <input type="checkbox" />
+      <input type="radio" />
+      <input type="radio" />
+      <input type="radio" />
+
+      <textarea name="" id=""></textarea>
+      <!--button - кнопка для відправки  -->
+      <button>Відправити</button>
+    </form>
+
+    <a href="mailto:qwe@qwe.com">Звʼяжіться</a>
   </body>
 </html>
