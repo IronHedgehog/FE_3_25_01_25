@@ -3,127 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Document</title>
   </head>
-  <body>
-    <!-- блокові існують для того щоб будувати структуру вашої сторінки -->
-    <section></section>
-    <div></div>
-    <article></article>
-    <aside></aside>
-    <h1>Lorem.</h1>
-    <h2>Lorem.</h2>
-    <h3>Lorem.</h3>
-    <h4>Lorem.</h4>
-    <h5>Lorem.</h5>
-    <h6>Lorem.</h6>
+  <body style="background-color: black; color: white">
+    <header>
+      <a href=""
+        ><img class="img-fluid" src="" alt="ТУТ МАВ БИ БУТИ ЛОГОТИП"
+      /></a>
 
-    <!-- Рядкові  - слугують для форматування тексту, вони займають розмір по контенту-->
+      <nav>
+        <ul>
+          <li><a href="#section1">ПРо нас</a></li>
+          <li><a href="#section2">Наші роботи</a></li>
+          <li><a href="#section3">Наша команда</a></li>
+          <li><a href="#section4">Переваги</a></li>
+          <li><a href="#section5">Контакти</a></li>
+        </ul>
+      </nav>
 
-    <img
-      src="./pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
-      alt=""
-      width="100"
-      style="border-radius: 10px"
-    />
-    <img
-      src="./pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
-      alt=""
-      width="100"
-    />
-    <img
-      src="./pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
-      alt=""
-      width="100"
-    />
-    <img
-      src="./pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
-      alt=""
-      width="100"
-    />
-    <img
-      src="./pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
-      alt=""
-      width="100"
-    />
+      <header>
+        <h1><a href="/">My fancy blog</a></h1>
+        ...
+        <search>
+          <form action=" ">
+            <label for="query">Find an article</label>
+            <input id="query" name="q" type="search" />
+            <button type="submit">Go!</button>
+          </form>
+        </search>
+      </header>
+    </header>
 
-    <img
-      src="./pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
-      alt=""
-      width="100"
-    />
-    <img
-      src="./pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
-      alt=""
-      width="100"
-    />
-    <img
-      src="./pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
-      alt=""
-      width="100"
-    />
-    <img
-      src="./pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
-      alt=""
-      width="100"
-    />
-
-    <a href=""></a>
-
-    <!-- Таблиці -->
-    <!-- table - групує нашу табличку -->
-    <table
-      style="border: 5px solid black; border-collapse: collapse; width: 100%"
-    >
-      <!-- thead - шапочка -->
-      <thead>
-        <!-- tr - tablerow - рядок таблиці -->
-        <tr>
-          <!--th - комірка нашого рядочку  -->
-          <th style="border: 2px solid black; padding: 10px">Понеділок</th>
-          <th style="border: 2px solid black; padding: 10px">Вівторок</th>
-          <th style="border: 2px solid black; padding: 10px">Середа</th>
-          <th style="border: 2px solid black; padding: 10px">Четвер</th>
-          <th style="border: 2px solid black; padding: 10px">Пʼятниця</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- tr - рядок -->
-        <tr>
-          <td style="border: 2px solid black; padding: 10px">1</td>
-          <td style="border: 2px solid black; padding: 10px">2</td>
-          <td style="border: 2px solid black; padding: 10px">3</td>
-          <td style="border: 2px solid black; padding: 10px">4</td>
-          <td style="border: 2px solid black; padding: 10px">5</td>
-        </tr>
-        <tr>
-          <td style="border: 2px solid black; padding: 10px">6</td>
-          <td style="border: 2px solid black; padding: 10px">7</td>
-          <td style="border: 2px solid black; padding: 10px">9</td>
-          <td style="border: 2px solid black; padding: 10px">8</td>
-          <td style="border: 2px solid black; padding: 10px">10</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <!-- ФОРМИ -->
-    <!-- form - групуючий тег таблиці -->
-    <form>
-      <!-- input - текстове поле -->
-      <input type="email" placeholder="E-mail" required />
-      <input type="password" placeholder="password" required minlength="6" />
-      <input type="number" max="3" min="0" />
-
-      <input type="checkbox" />
-      <input type="radio" />
-      <input type="radio" />
-      <input type="radio" />
-
-      <textarea name="" id=""></textarea>
-      <!--button - кнопка для відправки  -->
-      <button>Відправити</button>
-    </form>
-
-    <a href="mailto:qwe@qwe.com">Звʼяжіться</a>
+    <main>
+      <section id="section1" style="height: 5000px; background-color: white">
+        <h2>1</h2>
+      </section>
+      <hr />
+      <section id="section2" style="height: 5000px; background-color: green">
+        <h2>2</h2>
+      </section>
+      <section id="section3" style="height: 5000px; background-color: brown">
+        <h2>3</h2>
+      </section>
+      <section
+        id="section4"
+        style="height: 5000px; background-color: rgb(79, 138, 2)"
+      >
+        <h2>4</h2>
+      </section>
+      <section id="section5" style="height: 5000px; background-color: white">
+        <h2>5</h2>
+      </section>
+    </main>
+    <footer></footer>
   </body>
 </html>
