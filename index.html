@@ -1,16 +1,51 @@
 <!DOCTYPE html>
+<!-- DOCTYPE - найперше що має побачити браузер -->
 <html lang="en">
+  <!-- head - групує службові теги  -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- title - заголовок сторінки  -->
+    <title>Search</title>
   </head>
-  <body style="background-color: black; color: white">
+  <body style="background-color: black; color: red">
+    <search>
+      <form action="./index.html">
+        <label
+          >Find an article
+          <input id="query" name="q" type="search" />
+        </label>
+        <button type="submit">Go!</button>
+      </form>
+    </search>
     <header>
       <a href=""
         ><img class="img-fluid" src="" alt="ТУТ МАВ БИ БУТИ ЛОГОТИП"
       /></a>
 
+      <dialog style="height: 80vh">
+        <div style="overflow: auto; height: 60vh" autofocus>
+          <p>
+            By placing an order via this Web site on the first day of the fourth
+            month of the year 2010 Anno Domini, you agree to grant Us a
+            non-transferable option to claim, for now and for ever more, your
+            immortal soul.
+          </p>
+          <p>
+            Should We wish to exercise this option, you agree to surrender your
+            immortal soul, and any claim you may have on it, within 5 (five)
+            working days of receiving written notification from this site or one
+            of its duly authorized minions.
+          </p>
+          <!-- ... etc., with many more <p> elements ... -->
+        </div>
+        <form method="dialog">
+          <button type="submit" value="agree">Agree</button>
+          <button type="submit" value="disagree">Disagree</button>
+        </form>
+      </dialog>
+
+      <!--nav - блочний тег - який означає блок навігації -->
       <nav>
         <ul>
           <li><a href="#section1">ПРо нас</a></li>
@@ -18,29 +53,41 @@
           <li><a href="#section3">Наша команда</a></li>
           <li><a href="#section4">Переваги</a></li>
           <li><a href="#section5">Контакти</a></li>
+          <li><a href="#video">Відео</a></li>
         </ul>
       </nav>
 
-      <header>
-        <h1><a href="/">My fancy blog</a></h1>
-        ...
-        <search>
-          <form action=" ">
-            <label for="query">Find an article</label>
-            <input id="query" name="q" type="search" />
-            <button type="submit">Go!</button>
-          </form>
-        </search>
-      </header>
+      <h1><a href="/">My fancy blog</a></h1>
     </header>
-
+    <!-- головний змінний контент нашої сторінки -->
     <main>
+      <section id="video" style="background-color: black; height: 1000px">
+        <!-- h1 - Основний заголовок -  що такий тег на сторінці може бути тільки один але документацією це не заболронено -->
+        <h2>TEST</h2>
+        <video src="" controls></video>
+        <p lang="uk">ПРивіт</p>
+      </section>
+
       <section id="section1" style="height: 5000px; background-color: white">
         <h2>1</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad beatae
+          tempora quam officiis, at labore incidunt reprehenderit quidem illum
+          porro hic odio alias voluptatibus, excepturi unde non, vitae aut
+          magnam?
+        </p>
       </section>
       <hr />
       <section id="section2" style="height: 5000px; background-color: green">
         <h2>2</h2>
+
+        <figure>
+          <img
+            src="./pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg"
+            alt=""
+          />
+          <figcaption>IMG</figcaption>
+        </figure>
       </section>
       <section id="section3" style="height: 5000px; background-color: brown">
         <h2>3</h2>
@@ -50,6 +97,10 @@
         style="height: 5000px; background-color: rgb(79, 138, 2)"
       >
         <h2>4</h2>
+        <dialog>
+          <label>Product Number <input type="text" readonly /></label>
+          <label>Product Name <input type="text" autofocus /></label>
+        </dialog>
       </section>
       <section id="section5" style="height: 5000px; background-color: white">
         <h2>5</h2>
