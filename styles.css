@@ -1,3 +1,46 @@
+/* x =  */
+
+:root {
+  --main-color: red;
+}
+
+* {
+  margin: 0;
+}
+
 p {
   color: midnightblue;
+}
+
+section a {
+  color: var(--main-color);
+}
+/* 
+@media screen and (min-width: 1000px) {
+  a {
+    color: red;
+  }
+} */
+
+section > h1 {
+  font-size: 20px;
+}
+/*  + - відпрацювання тільки з одним елементом(сусіднім) */
+section + p {
+  color: mediumslateblue;
+  font-size: 30px;
+}
+/* ~ - всі наступні елементи  */
+section ~ p {
+  color: rgba(255, 50, 30, 0.4);
+  font-size: 30px;
+}
+
+/* a[href^="https"]  - a - cелектор тегу. селектор атрибуту [href^="https"]. ^ - шукати на початку */
+a[href^="https"] {
+  color: green;
+}
+
+a {
+  color: red;
 }
