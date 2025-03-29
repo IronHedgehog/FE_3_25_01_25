@@ -1,5 +1,5 @@
 /* x =  */
-
+/* INDEX.HTML */
 :root {
   --main-color: red;
 }
@@ -43,4 +43,13 @@ a[href^="https"] {
 
 a {
   color: red;
+}
+
+/* PORTFOLIO */
+#nav-item {
+  color: red;
+}
+
+.nav-item {
+  color: green;
 }
