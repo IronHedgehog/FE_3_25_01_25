@@ -14,3 +14,62 @@
 h1 {
   color: lavender !important;
 }
+
+.img-holder {
+  cursor: none;
+  width: 200px;
+  overflow: hidden;
+}
+
+body {
+  font-size: 40px; /*Наслідується  */
+  background-color: black; /* не наслідується */
+  text-align: center; /* Наслідується */
+  border: 10px solid orange; /* не наслідується */
+  /* border-style:dotted; */
+
+  font-style: italic;
+  font-family: monospace;
+}
+
+h1 {
+  /* inherit - ми можемо примусово змусити елемент унаслідувати властиості батька */
+  border: inherit;
+}
+
+h1:hover {
+  color: olivedrab !important;
+  cursor: pointer;
+}
+
+body {
+  cursor: pointer;
+}
+
+/* a {
+  color: ;
+} */
+
+.item:nth-child(even) {
+  background-color: aqua;
+}
+
+.item:nth-child(odd) {
+  background-color: orangered;
+}
+
+.item:last-child {
+  background-color: white;
+}
+
+.item:first-child {
+  background-color: white;
+}
+
+.item:nth-child(4n) {
+  background-color: plum;
+}
+
+.item:nth-child(n + 2) {
+  background-color: gold;
+}
