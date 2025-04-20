@@ -1,4 +1,11 @@
 .img {
+  /* display: none; */
+  opacity: 0.9;
+  visibility: visible;
+
+  width: 270px;
+  height: 368px;
+
   background-color: black;
 
   padding-left: 20px;
@@ -7,9 +14,16 @@
   padding-top: 20px;
 
   border-width: 10px;
+  border-style: solid; /* solid - суцільна лінія  */
   border-color: green;
-  border-style: double;
+
+  border: 10px outset red;
+  /* border-radius: 50%; */
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 
   margin-top: 30%;
   margin-left: 30%;
+
+  margin: 0 auto;
 }
