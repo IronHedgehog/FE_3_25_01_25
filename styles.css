@@ -1,54 +1,9 @@
-body {
-  /* background-color: black; */
-}
-.container {
-  /* background-color: white; */
-  /* border-style: ; */
-
-  /* border: 10px dotted tomato; */
-
-  width: 1200px;
-  /* 0 - відповідає за відступ зверху та знизу */
-  /* auto - зліва та справа  */
-  margin: 0 auto; /* Центрує контент - (Елемент має бути БЛОКОВИМ)  */
-  padding: 0px 15px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
+.list {
+  display: flex;
+  justify-content: space-between;
 }
 
-.hero {
-  background-color: black;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-.hero-title {
-  width: 696px;
-  color: white;
-  margin: 0 auto;
-  text-align: center;
-  /* Ефективні рішення для вашого бізнесу */
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: #ffffff;
-
-  margin-bottom: 30px;
-}
-
-.hero-button {
-  display: block;
-  width: 216px;
-  height: 50px;
-  margin: 0 auto;
-  text-align: center;
-  background-color: #2196f3;
-  color: #ffffff;
+img {
+  width: 200px;
+  height: auto;
 }
