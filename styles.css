@@ -1,9 +1,20 @@
 .list {
+  /* width: 50px; */
+  height: 100vh;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: center;
+  align-items: center;
+  align-content: flex-end; */
+}
+
+li {
+  background-color: black;
 }
 
 img {
+  display: block;
   width: 200px;
   height: auto;
 }
