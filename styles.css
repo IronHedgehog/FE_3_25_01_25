@@ -1,20 +1,22 @@
 .list {
-  /* width: 50px; */
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  /* justify-content: center;
+  /*  display: grid; - дається на батьківський елемент(список, дів) */
+  display: grid;
+  /* grid-template-columns - налашувати кількість колонок та їх розмір */
+  /* grid-template-columns: 420px 420px; */
+  grid-template-columns: repeat(2, 420px);
+  grid-template-rows: repeat(3, 546px);
+
+  grid-auto-rows: 546px;
+
+  column-gap: 65px;
+  row-gap: 130px;
+
+  align-content: center;
+  justify-content: center;
   align-items: center;
-  align-content: flex-end; */
+  justify-items: center;
 }
 
-li {
+.list-item {
   background-color: black;
-}
-
-img {
-  display: block;
-  width: 200px;
-  height: auto;
 }
