@@ -1,0 +1,17 @@
+body {
+  display: flex;
+}
+
+.aside {
+  flex-grow: 1;
+  flex-shrink: 1;
+  /* vh - viewPort height */
+  height: 100vh;
+  background-color: black;
+}
+
+.main {
+  flex-grow: 2;
+  flex-shrink: 6;
+  background-color: green;
+}
