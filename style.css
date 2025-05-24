@@ -1,0 +1,20 @@
+html {
+  font-size: 20px;
+}
+
+.qwe {
+  width: 100%;
+  /* Відсотки від значення батьківського елементу */
+  height: 100%;
+  background-color: black;
+  /* font-size: 16px; */
+  font-size: 10px;
+}
+
+.p {
+  /* em - бере значення від батьківського FZ та працює як множник */
+  font-size: 2em; /* 2 * 10 = 20*/
+
+  font-size: 2rem; /* 2 * 20 = 40*/
+  color: white;
+}
