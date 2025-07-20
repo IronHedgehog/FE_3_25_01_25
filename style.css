@@ -9,3 +9,9 @@
   background-color: red;
   color: red;
 }
+
+.svg {
+  width: 32px;
+  height: 32px;
+  fill: darkviolet;
+}
