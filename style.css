@@ -1,17 +1,29 @@
-.list {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
+  height: 10000px;
 }
 
-.list-img {
+.button {
+  width: 50px;
+  height: 50px;
   background-color: red;
-  color: red;
+  border-radius: 50%;
+  /* Дозволяє зафіксувати будь-який елемент на екрані у користувача */
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
 }
 
-.svg {
-  width: 32px;
-  height: 32px;
-  fill: darkviolet;
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: relative;
+  top: 200px;
+  z-index: 1;
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
 }
