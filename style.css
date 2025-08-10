@@ -20,3 +20,7 @@ body {
   height: 500px;
   background-color: white;
 }
+
+.is-hidden {
+  opacity: 0;
+}
