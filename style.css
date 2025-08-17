@@ -25,3 +25,26 @@ body {
   opacity: 0;
   pointer-events: none;
 }
+
+.word {
+  text-decoration: underline;
+  font-style: italic;
+  color: red;
+}
+
+.pop-up {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  background-color: white;
+  width: 120px;
+  visibility: hidden;
+}
+
+.library-text:hover .pop-up {
+  visibility: visible;
+}
+
+.library-text {
+  position: relative;
+}
