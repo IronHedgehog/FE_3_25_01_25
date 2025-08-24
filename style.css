@@ -2,10 +2,17 @@
   width: 200px;
   height: 200px;
   background-color: red;
-  transition-property: background-color; /*   transition-property: властивість яку хочеш анімувати*/
+  transition-property: transform; /*   transition-property: властивість яку хочеш анімувати*/
   transition-duration: 1s; /* ms / s*/
+  transition-timing-function: linear;
+
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  transform: skew(20deg, 30deg);
 }
 
 .animation:hover {
-  background-color: lemonchiffon;
+  transform: skew(40deg, 60deg);
 }
