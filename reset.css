@@ -1,14 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* CSS версія */
+
+:root {
+  --main-text: #fcfcfc;
+  --second-text: #eaeaea;
+  --modal-margin: 30px;
 }
 
-ul,
-ol {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
+.modal-margin {
+  margin: var(--modal-margin);
 }

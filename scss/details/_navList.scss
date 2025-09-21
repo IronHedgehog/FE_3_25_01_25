@@ -1,0 +1,16 @@
+.navList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // & - підставляє замість себе назву селектора в якому ви пишите &
+  &-li {
+    background-color: red;
+  }
+  &-link {
+    color: orange;
+  }
+}
+
+// .navList-li {
+
+// }
