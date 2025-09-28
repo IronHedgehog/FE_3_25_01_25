@@ -12,4 +12,13 @@
   background-color: red;
   @extend %button-placeholder;
   @include fonts(900, 30px, "montserrat", italic);
+  &:hover {
+    background-color: yellow;
+  }
+  &:active {
+    background-color: yellow;
+  }
+  &-message {
+    color: white;
+  }
 }
