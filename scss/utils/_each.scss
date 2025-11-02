@@ -1,5 +1,0 @@
-@each $elements in antena, clock, diagram, astronaut {
-  .#{$elements}-icon {
-    background-image: url(`../../assets/img/#{$elements}.jpg`);
-  }
-}
